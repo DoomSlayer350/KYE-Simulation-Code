@@ -84,6 +84,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "attack_data")
 	FS_damage_info damage_info;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+	float AI_threshold = 0.0f;
+
 };
 
 	
